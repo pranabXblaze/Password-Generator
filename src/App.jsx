@@ -59,8 +59,8 @@ function App() {
             Copy
           </button>
         </div>
-        <div className="flex text-md gap-x-2">
-          <div className="flex items-center gap-x-1">
+        <div className="flex text-wrap gap-x-2">
+          <div className="flex flex-wrap items-center gap-x-1">
             <input
               className="cursor-pointer"
               type="range"
