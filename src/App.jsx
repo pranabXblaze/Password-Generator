@@ -29,7 +29,7 @@ function App() {
   //fn for copying th password from input field
   const copyPasswordtoClipBoard = useCallback(() => {
     passwordRef.current.select();
-    passwordRef.current.setSelectionRange(20);
+    passwordRef.current.setSelectionRange(0, 20);
     window.navigator.clipboard.writeText(password);
   }, [password]);
 
