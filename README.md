@@ -26,4 +26,8 @@ A simple, lightweight web application to generate strong, secure, and random pas
     ```bash
     cd Password-Generator
     ```
-    
+3. **Double click on index.html**
+    Open in your browser.
+   ```
+   index.html
+   ```
